@@ -1,11 +1,14 @@
 import { Profile } from '../Profile/Profile';
 import user from '../../data/user.json';
 
-import { Statistics } from '../Statistics/StatList/StatList';
+import { Statistics } from '../Statistics/Statistics';
 import statsdata from '../../data/data.json';
 
-import { FriendList } from '../Friends/FriendList/FriendList';
+import { FriendList } from '../FriendList/FriendList';
 import friends from '../../data/friends.json';
+
+import { TransactionHistory } from '../TransactionHistory/TransactionHistory';
+import transactions from '../../data/transactions.json';
 
 import { Container } from './App.styled';
 
@@ -31,6 +34,7 @@ export const App = () => {
       />
       <Statistics title="Upload stats" statistics={statsdata} />
       <FriendList friends={friends} />
+      <TransactionHistory transactions={transactions} />
     </Container>
   );
 };

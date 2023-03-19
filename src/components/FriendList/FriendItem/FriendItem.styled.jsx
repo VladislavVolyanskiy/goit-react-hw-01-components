@@ -6,6 +6,7 @@ export const FriendItemStyled = styled.li`
   justify-content: space-between;
   width: calc(100% - 10px);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 2px;
+  padding: 3px;
 
   transition: background-color 380ms linear;
   transition: box-shadow 280ms linear;
