@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { invertHexColor } from '../../../utils/invertHexColor';
 
 export const StatItemStyled = styled.li`
   display: flex;
@@ -7,5 +8,8 @@ export const StatItemStyled = styled.li`
   padding: 3px;
   background-color: ${props => {
     return props.bgcolor;
+  }};
+  color: ${props => {
+    return invertHexColor(props.bgcolor);
   }};
 `;
