@@ -1,0 +1,32 @@
+.temp {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  width: calc((100% / 5)-2px);
+  padding: 3px;
+  /* background-color: ${(props) => {return props.bgcolor;}}; */
+
+  width: calc(100%-8px);
+
+  justify-content: space-between;
+  list-style: none;
+  font-weight: 700;
+  outline: 1px black;
+  border: solid 1px grey;
+
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  padding: 8px;
+  /* background-color: $ {
+    ({status})=> {
+      status === 'isOnline' ? return green : return bordo;
+    }
+  } */
+
+  justify-content: space-evenly;
+
+  background-color: #feffc8;
+  background-color: red;
+}
