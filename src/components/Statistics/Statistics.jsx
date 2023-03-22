@@ -32,5 +32,5 @@ Statistics.propTypes = {
       id: PropTypes.string.isRequired,
     })
   ),
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
 };
